@@ -10,10 +10,13 @@
 
 :root {
      /* Colors */
-    --white-color: #fff;
+    /* --white-color: #fff; */
+    --white-color:#816C61;
     --dark-color: #F7DB91;
-    --primary-color:#FFAAB8 ;
-    --secondary-color: #A8DF8E;
+    /* --primary-color:#FFAAB8 ; */
+    --primary-color:#CFCFEA;
+    /* --secondary-color: #BDD9BF; */
+    --secondary-color:#A89B9D;
     --light-pink-color: #FFD8DF;
     --light-green-color: #F0FFDF;
 
@@ -45,9 +48,6 @@ ul {
     list-style: none;
 }
 
-a {
-    text-decoration: none;
-}
 
 button{
     cursor: pointer;
@@ -78,6 +78,7 @@ button{
     background: var(--secondary-color);
 }
 
+ 
 /*Navbar Styling */
 header {
     position: fixed;
@@ -118,6 +119,10 @@ header .navbar {
     background: var(--secondary-color);
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Hero section styling */
 
 .hero-section{
@@ -150,9 +155,15 @@ header .navbar {
 }
 
 .claim-inquiry {
-    padding: 100px;
+    min-height: 100vh;   
+    padding: 120px 20px 60px; 
+    background: var(--secondary-color);
 }
 
 .report-item {
-    padding: 100px;
+    min-height: 100vh;   
+    padding: 120px 20px 60px; 
+    background: var(--secondary-color);
 }
+
+
